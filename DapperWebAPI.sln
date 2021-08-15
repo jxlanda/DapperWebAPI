@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Application", "Dapper.Application\Dapper.Application.csproj", "{FC225B93-DCD8-4DD7-B380-9A310D9DE503}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Core", "Dapper.Core\Dapper.Core.csproj", "{77B7F31F-D009-484F-AD88-47A88A74C906}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Infrastructure", "Dapper.Infrastructure\Dapper.Infrastructure.csproj", "{6FB2A7A9-9938-46C9-A712-2EA149D35D39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.WebAPI", "Dapper.WebAPI\Dapper.WebAPI.csproj", "{BF7599B9-A092-4ABC-979E-40CD2C692F9F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC225B93-DCD8-4DD7-B380-9A310D9DE503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC225B93-DCD8-4DD7-B380-9A310D9DE503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC225B93-DCD8-4DD7-B380-9A310D9DE503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC225B93-DCD8-4DD7-B380-9A310D9DE503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B7F31F-D009-484F-AD88-47A88A74C906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B7F31F-D009-484F-AD88-47A88A74C906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B7F31F-D009-484F-AD88-47A88A74C906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B7F31F-D009-484F-AD88-47A88A74C906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FB2A7A9-9938-46C9-A712-2EA149D35D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FB2A7A9-9938-46C9-A712-2EA149D35D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FB2A7A9-9938-46C9-A712-2EA149D35D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FB2A7A9-9938-46C9-A712-2EA149D35D39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF7599B9-A092-4ABC-979E-40CD2C692F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF7599B9-A092-4ABC-979E-40CD2C692F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF7599B9-A092-4ABC-979E-40CD2C692F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF7599B9-A092-4ABC-979E-40CD2C692F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
